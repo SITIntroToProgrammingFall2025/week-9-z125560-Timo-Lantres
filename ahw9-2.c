@@ -32,6 +32,7 @@ int main(void)
         }
     }
 
+    printf("sorted array:\n") ;
     for (i = 0 ; i < 5 ; i++)
     {
         printf("%d ", a[i]) ;
@@ -39,5 +40,6 @@ int main(void)
 
     return 0 ;
 }
+
 
 
