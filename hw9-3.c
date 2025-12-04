@@ -17,7 +17,7 @@ int main(void)
         for (j = 0 ; j < 3 ; j++)
         {
             //printf("Enter the element in [%d][%d]: ", i, j) ;
-            scanf("%.f", &a[i][j]) ;
+            scanf("%f", &a[i][j]) ;
         }
     }
 
@@ -26,7 +26,7 @@ int main(void)
         for (j = 0 ; j < 2 ; j++)
         {
             //printf("Enter the element in [%d][%d]: ", i, j) ;
-            scanf("%.f", &b[i][j]) ;
+            scanf("%f", &b[i][j]) ;
         }
     }
 
@@ -36,7 +36,7 @@ int main(void)
     {
         for(j = 0 ; j < 3 ; j++)
         {
-            printf("%.f ", a[i][j]) ;
+            printf("%f ", a[i][j]) ;
         }
         printf("\n") ;
     }
@@ -47,7 +47,7 @@ int main(void)
     {
         for(j = 0 ; j < 2 ; j++)
         {
-            printf("%.f ", b[i][j]) ;
+            printf("%f ", b[i][j]) ;
         }
         printf("\n") ;
     }
@@ -70,7 +70,7 @@ int main(void)
     {
         for(j = 0 ; j < 2 ; j++)
         {
-            printf("%.f ", c[i][j]) ;
+            printf("%f ", c[i][j]) ;
         }
         printf("\n") ;
     }
