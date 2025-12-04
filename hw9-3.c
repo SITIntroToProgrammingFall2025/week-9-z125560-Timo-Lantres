@@ -9,7 +9,7 @@ Date: 03/12/2025
 
 int main(void)
 {
-    int a[2][3], b[3][2], c[2][2] ;
+    float a[2][3], b[3][2], c[2][2] ;
     int i, j, k ;
 
     for(i = 0 ; i < 2 ; i++)
@@ -17,7 +17,7 @@ int main(void)
         for (j = 0 ; j < 3 ; j++)
         {
             //printf("Enter the element in [%d][%d]: ", i, j) ;
-            scanf("%d", &a[i][j]) ;
+            scanf("%f", &a[i][j]) ;
         }
     }
 
@@ -26,7 +26,7 @@ int main(void)
         for (j = 0 ; j < 2 ; j++)
         {
             //printf("Enter the element in [%d][%d]: ", i, j) ;
-            scanf("%d", &b[i][j]) ;
+            scanf("%f", &b[i][j]) ;
         }
     }
 
@@ -36,7 +36,7 @@ int main(void)
     {
         for(j = 0 ; j < 3 ; j++)
         {
-            printf("%d ", a[i][j]) ;
+            printf("%f ", a[i][j]) ;
         }
         printf("\n") ;
     }
@@ -47,7 +47,7 @@ int main(void)
     {
         for(j = 0 ; j < 2 ; j++)
         {
-            printf("%d ", b[i][j]) ;
+            printf("%f ", b[i][j]) ;
         }
         printf("\n") ;
     }
@@ -64,18 +64,16 @@ int main(void)
         }
     }
 
-    printf("The multiplication product of matrix A and matrix B :\n") ;
+    printf("The multiplication product of matrix A and matrix B:\n") ;
 
     for(i = 0 ; i < 2 ; i++)
     {
         for(j = 0 ; j < 2 ; j++)
         {
-            printf("%d ", c[i][j]) ;
+            printf("%f ", c[i][j]) ;
         }
         printf("\n") ;
     }
 
     return 0 ;
 }
-
-
